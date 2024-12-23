@@ -1,2 +1,0 @@
-# ANGULAR
-Tutorial
