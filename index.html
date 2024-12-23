@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial de Angular</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tutorial de Angular</h1>
+        <nav>
+            <ul>
+                <li><a href="#justificacion">Justificación</a></li>
+                <li><a href="#instalacion">Instalación</a></li>
+                <li><a href="#primeros-pasos">Primeros Pasos</a></li>
+                <li><a href="#utilizacion">Utilización</a></li>
+                <li><a href="#explicacion">Explicación</a></li>
+                <li><a href="#conclusiones">Conclusiones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="justificacion">
+            <h2>1. Justificación del Framework</h2>
+            <p><strong>¿Para qué sirve?</strong> Angular es un framework para construir aplicaciones web de una sola página (SPA) y aplicaciones móviles.</p>
+            <p><strong>¿Qué aplicaciones tiene?</strong> Se utiliza para desarrollar aplicaciones web interactivas, aplicaciones móviles híbridas y aplicaciones empresariales complejas.</p>
+            <p><strong>¿Sobre qué lenguajes se apoya?</strong> Angular está basado en TypeScript, un superconjunto de JavaScript.</p>
+            <p><strong>¿Qué prerrequisitos necesita?</strong> Conocimientos básicos de HTML, CSS y JavaScript. Familiaridad con TypeScript es útil pero no esencial.</p>
+        </section>
+
+        <section id="instalacion">
+            <h2>2. Instalación</h2>
+            <p><strong>¿Se precisa instalación?</strong> Sí, es necesario instalar Angular CLI.</p>
+            <p><strong>Pasos para la instalación:</strong></p>
+            <ol>
+                <li>Instalar Node.js desde <a href="https://nodejs.org/" target="_blank">nodejs.org</a>.</li>
+                <li>Instalar Angular CLI: <code>npm install -g @angular/cli</code></li>
+                <li>Crear un nuevo proyecto: <code>ng new nombre-proyecto</code></li>
+                <li>Navegar al directorio del proyecto: <code>cd nombre-proyecto</code></li>
+                <li>Iniciar el servidor de desarrollo: <code>ng serve</code></li>
+            </ol>
+            <p><strong>Versiones necesarias:</strong> Node.js LTS, Angular CLI.</p>
+            <p><strong>Rutas para tener en cuenta:</strong> Asegúrate de que Node.js y npm estén en el PATH del sistema.</p>
+            <p><strong>Variables de entorno:</strong> En la sección "Variables del sistema", busca y selecciona la variable Path, luego haz clic en "Editar".
+                Añade la ruta de instalación de Node.js. Por defecto, suele ser C:\Program Files\nodejs\.</p>
+            <p><strong>¿Necesita base de datos?</strong> No, pero puede integrarse con bases de datos si es necesario.</p>
+        </section>
+
+        <section id="primeros-pasos">
+            <h2>3. Primeros Pasos</h2>
+            <p><strong>Cómo realizar una primera aproximación (“Hola Mundo”):</strong></p>
+            <ol>
+                <li>Abre el archivo <code>src/app/app.component.html</code>.</li>
+                <li>Reemplaza el contenido con: <code>&lt;h1&gt;Hola Mundo desde Angular&lt;/h1&gt;</code></li>
+                <li>Guarda los cambios y observa la actualización en el navegador.</li>
+            </ol>
+        </section>
+
+        <section id="utilizacion">
+            <h2>4. Utilización del Framework</h2>
+            <p><strong>¿Cómo empezar a crear una aplicación base?</strong></p>
+            <ol>
+                <li>Generar un nuevo componente: <code>ng generate component nombre-componente</code></li>
+                <li>Editar el componente: Abre <code>src/app/nombre-componente/nombre-componente.component.html</code> y añade contenido HTML.</li>
+                <li>Visualizar los resultados: Asegúrate de que el componente se incluye en <code>app.component.html</code> para verlo en la aplicación.</li>
+            </ol>
+        </section>
+
+        <section id="explicacion">
+            <h2>5. Explicación del Funcionamiento del Framework</h2>
+            <p><strong>¿Actúa sobre páginas, ficheros, secciones?</strong> Angular organiza la aplicación en módulos y componentes. Cada componente tiene su propio HTML, CSS y lógica en TypeScript.</p>
+            <p><strong>¿Cómo se editan/modifican los ficheros?</strong> Los ficheros se editan directamente en el editor de código. Angular CLI facilita la creación y gestión de estos ficheros.</p>
+            <p><strong>¿Cómo se referencian los ficheros creados desde otras aplicaciones?</strong> Los componentes y servicios se importan y utilizan en otros módulos y componentes mediante el sistema de módulos de TypeScript.</p>
+        </section>
+
+        <section id="conclusiones">
+            <h2>6. Conclusiones</h2>
+            <p>Al finalizar este tutorial, habrás aprendido a instalar Angular, crear una aplicación básica y entender los conceptos fundamentales del framework. Este conocimiento te permitirá desarrollar aplicaciones web dinámicas y escalables.</p>
+        </section>
+
+        <section id="video">
+            <h2>Video Tutorial</h2>
+            <p>A continuación, puedes ver un video donde se explica paso a paso el proceso de instalación:</p>
+            <video controls>
+                <source src="tutorial.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tutorial de Angular. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
